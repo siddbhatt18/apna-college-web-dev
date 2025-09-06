@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action">
+        <label for="name">Name: </label>
+        <input type="text" placeholder="write your name" id="name" name="uname">
+        <br>
+        <label for="mail">Email: </label>
+        <input type="text" placeholder="write your email" id="mail" name="umail">
+        <br>
+        <div>
+            Sex:  
+            <input type="radio" id="ml" name="sex" value="male">
+            <label for="ml">Male</label>
+            <input type="radio" id="fml" name="sex" value="female">
+            <label for="fml">Female</label>
+        </div>
+        <label for="cnt">Country: </label>
+        <select name="country" id="cnt">
+            <option value="ind">India</option>
+            <option value="usa">America</option>
+            <option value="jpn">Japan</option>
+        </select>
+        <br>
+        <label for="mssg">Message: </label>
+        <br>
+        <textarea id="mssg" name="message" placeholder="Type Here" rows="2" cols="20"></textarea>
+        <br>
+        <input type="checkbox" id="ckbx" name="subscribe">
+        <label for="ckbx">Subscribe</label>
+        <br>
+        <div>
+            Rate us out of 5:
+            <br>
+            <input type="radio" id="one" name="feedback" value="1">
+            <label for="one">1</label>
+            <br>
+            <input type="radio" id="two" name="feedback" value="2">
+            <label for="two">2</label>
+            <br>
+            <input type="radio" id="three" name="feedback" value="3">
+            <label for="three">3</label>
+            <br>
+            <input type="radio" id="four" name="feedback" value="4">
+            <label for="four">4</label>
+            <br>
+            <input type="radio" id="five" name="feedback" value="5">
+            <label for="five">5</label>
+        </div>
+        <button type="submit">Send your message</button>
+    </form>
+</body>
+</html>
