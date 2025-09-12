@@ -1,0 +1,21 @@
+section {
+    margin-top: 100px;
+}
+div {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: lightgreen;
+    border: 2px black solid;
+    margin: 0 auto;
+    margin: 100px
+}
+#first {
+    transform: translate(50px, 50px);
+}
+#second {
+    transform: translateX(50px);
+}
+#third {
+    transform: translateY(50px);
+}

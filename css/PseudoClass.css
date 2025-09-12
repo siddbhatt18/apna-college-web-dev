@@ -1,0 +1,22 @@
+button:hover {
+    background-color: black;
+    color: white;
+}
+h3:hover {
+    text-decoration: underline;
+}
+button:active {
+    background-color: red;
+    color: white;
+}
+p:active {
+    font-weight: bold;
+    color: blueviolet;
+}
+input[type="radio"]:checked + label {
+    color: green;
+    font-weight: bold;
+}
+div:nth-of-type(2n) {
+    background-color: lightblue;
+}

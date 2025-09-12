@@ -1,0 +1,12 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: lightgreen;
+    transition-duration: 2s;
+    transition-delay: 0.5s;
+    transition-timing-function: ease;    
+}
+div:hover {
+    background-color: lightcoral;
+    border-radius: 50%;
+}

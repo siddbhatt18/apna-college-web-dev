@@ -1,0 +1,21 @@
+section {
+    margin-top: 100px;
+}
+div {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: lightgreen;
+    border: 2px black solid;
+    margin: 0 auto;
+    margin: 100px
+}
+#first {
+    transform: rotate(45deg);
+}
+#second {
+    transform: rotate(90deg);
+}
+#third {
+    transform: rotate(-45deg);
+}

@@ -1,0 +1,31 @@
+* {
+    background-color: wheat;
+    font-family: 'Georgia';
+}
+p {
+    color: #a52a2a;
+    text-align: center;
+    line-height: 30px;
+}
+h1 {
+    text-align: center;
+    color: #ff0000;
+}
+h3 {
+    text-align: center;
+    color: #000000;
+}
+a {
+    color: #008000;
+    text-decoration: none;
+}
+button {
+    color: #8a2be2;
+    background-color: #ffffff;
+}
+textarea {
+    color: #000000;
+}
+span {
+    text-decoration: underline;
+}

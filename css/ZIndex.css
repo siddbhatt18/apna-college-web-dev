@@ -1,0 +1,17 @@
+.box {
+    height: 150px;
+    width: 150px;
+    border: 2px black solid;
+    background-color: lightblue;
+}
+.one {
+    background-color: lightgreen;
+    position: relative;
+    z-index: 1;
+}
+.two {
+    background-color: lightcoral;
+    position: relative;
+    bottom: 50px;
+    z-index: auto;
+}
