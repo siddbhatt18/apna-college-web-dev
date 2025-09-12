@@ -1,0 +1,7 @@
+div > input {
+    background-color: orange;
+}
+span > button {
+    color: blue;
+    background-color: yellow;
+}

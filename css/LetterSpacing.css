@@ -1,0 +1,12 @@
+h1 {
+    letter-spacing: 5px;
+}
+h2 {
+    letter-spacing: 10px;
+}
+h3 {
+    letter-spacing: 1px;
+}
+p {
+    letter-spacing: normal;
+}

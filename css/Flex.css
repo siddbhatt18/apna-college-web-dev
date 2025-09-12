@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+}
+#container {
+    height: 300px;
+    width: 80%;
+    background-color: lightgray;
+    margin: 10px auto;
+    border: 2px black solid;
+    display: flex;
+}
+.box {
+    height: 50px;
+    width: 100px;
+    text-align: center;
+}

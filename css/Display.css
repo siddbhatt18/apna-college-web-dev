@@ -1,0 +1,16 @@
+h2 {
+    display: inline;
+    background-color: lightblue;
+}
+span {
+    display: block;
+    background-color: lightgreen;
+}
+div {
+    height: 100px;
+    width: 100px;
+    border: 2px black solid;
+    background-color: lightcoral;
+    display: inline-block;
+    margin: 5px
+}
