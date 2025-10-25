@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+}
+.btn {
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 10%;
+}
+.btn-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+    justify-content: center;
+}
+.red {
+    background-color: #f25022;
+}
+.green {
+    background-color: #7FBA00;
+}
+.blue {
+    background-color: #00A4EF;
+}
+.yellow {
+    background-color: #FFB900;
+}
+.gameFlash {
+    background-color: white;
+}
+.userFlash {
+    background-color: black;
+}
