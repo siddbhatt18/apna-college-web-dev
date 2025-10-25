@@ -1,0 +1,17 @@
+let para1 = document.createElement("p");
+para1.innerText = "I am red paragraph";
+para1.classList.add("red");
+document.querySelector("body").append(para1);
+let head3 = document.createElement("h3");
+head3.innerText = "I am blue heading-3";
+head3.classList.add("blue");
+document.querySelector("body").append(head3);
+let div = document.createElement("div");
+let head1 = document.createElement("h1");
+let para2 = document.createElement("p");
+head1.innerText = "I am heading-1 inside div";
+para2.innerText = "I am paragraph inside div";
+div.append(head1);
+div.append(para2);
+div.classList.add("box");
+document.querySelector("body").append(div);
