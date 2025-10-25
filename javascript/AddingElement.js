@@ -1,0 +1,11 @@
+let newP1 = document.createElement("p");
+newP1.innerText = "This is first paragraph";
+let newP2 = document.createElement("p");
+newP2.innerText = "This is last paragraph";
+let myBox = document.querySelector(".box");
+myBox.prepend(newP1);
+myBox.append(newP2);
+let myBtn = document.createElement("button");
+myBtn.innerHTML = "New Button";
+let myP = document.querySelector("p");
+myP.insertAdjacentElement("beforebegin", myBtn);
